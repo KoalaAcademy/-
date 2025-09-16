@@ -121,21 +121,21 @@ def seed_data():
         # Add sample job positions
         jobs = [
             {
-                'title': 'Python 後端工程師',
+                'title': 'Python 工程師',
                 'description': '負責後端API開發、資料庫設計與系統架構',
                 'required_skills': json.dumps(['Python', 'Django', 'Flask', 'PostgreSQL', 'Redis', 'Docker']),
                 'experience_level': '2-5年',
                 'salary_range': 'NT$ 800,000 - 1,200,000'
             },
             {
-                'title': 'Frontend 開發工程師',
+                'title': '前端開發工程師',
                 'description': '負責前端介面開發、使用者體驗優化',
                 'required_skills': json.dumps(['JavaScript', 'React', 'Vue.js', 'HTML', 'CSS', 'TypeScript']),
                 'experience_level': '1-3年',
                 'salary_range': 'NT$ 600,000 - 900,000'
             },
             {
-                'title': 'Full Stack 開發工程師',
+                'title': '全端開發工程師',
                 'description': '全端開發，包含前後端技術',
                 'required_skills': json.dumps(['JavaScript', 'Python', 'React', 'Node.js', 'MongoDB', 'AWS']),
                 'experience_level': '3-6年',
@@ -152,7 +152,7 @@ def seed_data():
         courses = [
             {
                 'title': 'Python 基礎程式設計完整教學',
-                'instructor': '彭彭',
+                'instructor': '彭',
                 'platform': 'youtube',
                 'duration': '12hr 30m',
                 'rating': 4.8,
